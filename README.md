@@ -1,9 +1,11 @@
 # jpn-filter.css
-![jpn-filter.css](http://herablog.github.io/jpn-filter.css/images/filters.png)
 
 The Japanese-syled CSS Filters.
 
+![jpn-filter.css](http://herablog.github.io/jpn-filter.css/images/filters.png)
+
 ## Usage
+HTMLからCSSを読み込み、`data-filter`要素でフィルターを指定します。  
 Load the CSS and add `data-filter` attribute in your html.
 
 ```html
@@ -17,6 +19,7 @@ Load the CSS and add `data-filter` attribute in your html.
 ### Ninagawa
 ![Ninagawa](http://herablog.github.io/jpn-filter.css/images/ninagawa.jpg)
 
+蜷川実花さんが撮影した写真のような、活気にみち、明るい色のフィルターです。  
 A vibrant and brightly colored filter inspired by the photography of Mika Ninagawa.
 
 ```css
@@ -32,7 +35,8 @@ A vibrant and brightly colored filter inspired by the photography of Mika Ninaga
 ### Kiyomizu
 ![Kiyomizu](http://herablog.github.io/jpn-filter.css/images/kiyomizu.jpg)
 
-A chic filter inspired by nature clearly accentuating green leaves. 
+日本の自然をイメージした美しいフィルターです。緑の葉によく合います。  
+A beautiful filter inspired by nature clearly accentuating green leaves. 
 
 ```css
 [data-filter='kiyomizu'] {
@@ -43,6 +47,7 @@ A chic filter inspired by nature clearly accentuating green leaves.
 ### Origami
 ![Origami](http://herablog.github.io/jpn-filter.css/images/origami.jpg)
 
+影で囲い、昔の思い出を表したフィルターです。あなたの写真をソフトな仕上がりにします。  
 A faded filter inspired by old memories, which brings a softness to your photos.
 
 ```css
@@ -57,6 +62,7 @@ A faded filter inspired by old memories, which brings a softness to your photos.
 ### Namahage
 ![Namahage](http://herablog.github.io/jpn-filter.css/images/namahage.jpg)
 
+伝統的な日本の赤いペイントに影響を受けたフィルターです。このフィルターをかけると、より興奮した印象の写真になります。  
 A sharp filter inspired by the deep red colors of traditional Japanese paint, which brings more excitement.
 
 ```css
@@ -68,6 +74,7 @@ A sharp filter inspired by the deep red colors of traditional Japanese paint, wh
 ### Fuji
 ![Fuji](http://herablog.github.io/jpn-filter.css/images/fuji.jpg)
 
+富士山の青い空をイメージした明るいフィルタです。景色を撮影した写真によく合い、明るく綺麗にします。  
 A bright filter inspired by the clear blue sky around Mt.Fuji, which brings out crisp, clean colors in your nature shots.
 
 ```css
@@ -79,7 +86,8 @@ A bright filter inspired by the clear blue sky around Mt.Fuji, which brings out 
 ### Taisho
 ![Taisho](http://herablog.github.io/jpn-filter.css/images/taisho.jpg)
 
-A traditional filter inspired by [old-fashioned posters](https://www.google.co.jp/search?q=%E6%97%A5%E6%B4%BB+%E5%A4%A7%E6%AD%A3+%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC&espv=2&biw=1833&bih=1133&source=lnms&tbm=isch&sa=X&ei=-EPlVIWNFqW0mAXi8YDgCw&ved=0CAYQ_AUoAQ#imgdii=_&imgrc=QC4eLGJgg7C-0M%253A%3B5hz8WqvFcf_BfM%3Bhttp%253A%252F%252Fupload.wikimedia.org%252Fwikipedia%252Fcommons%252Fb%252Fbc%252FJibun_no_ana_no_nakade_poster.jpg%3Bhttp%253A%252F%252Fja.wikipedia.org%252Fwiki%252F%2525E9%252587%252591%2525E5%2525AD%252590%2525E4%2525BF%2525A1%2525E9%25259B%252584%3B283%3B412) in Taisho period (1912-1926 CE).
+大正時代に作られたポスターのような印象をあたえるフィルターです。  
+A traditional filter inspired by [old-fashioned posters](https://www.google.co.jp/search?q=%E5%A4%A7%E6%AD%A3%20%E6%97%A5%E6%B4%BB%20%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC&tbm=isch) in Taisho period (1912-1926 CE).
 
 ```css
 [data-filter='taisho'] {
@@ -90,6 +98,7 @@ A traditional filter inspired by [old-fashioned posters](https://www.google.co.j
 ### Kurosawa
 ![Kurosawa](http://herablog.github.io/jpn-filter.css/images/kurosawa.jpg)
 
+黒澤明監督の時代に作られた映画のような効果をあたえるフィルターです。グレースケールに少しセピアを混ぜて作られています。  
 A grayscale filter with a touch of sepia inspired by the old films of Akira Kurosawa.
 
 ```css
@@ -105,6 +114,7 @@ A grayscale filter with a touch of sepia inspired by the old films of Akira Kuro
 ### Kabuki
 ![Kabuki](http://herablog.github.io/jpn-filter.css/images/kabuki.jpg)
 
+日本の伝統的な演劇である歌舞伎をイメージしたフィルターです。舞台で使われているようなカラフルなボーダーで囲われています。  
 A fun filter inspired by the traditional art of Kabuki, which uses colorful borders.
 
 ```css
@@ -120,7 +130,8 @@ A fun filter inspired by the traditional art of Kabuki, which uses colorful bord
 ### Shodo
 ![Shodo](http://herablog.github.io/jpn-filter.css/images/shodo.jpg)
 
-A black and white filter inspired by shodo ink writing.
+東洋の芸術である書道から影響を受けたフィルターです。このフィルターを適用すると、筆と墨で書かれたような写真になります。  
+A black and white filter inspired by [shodo](https://www.google.co.jp/search?q=shodo&tbm=isch) ink writing.
 
 ```css
 [data-filter='shodo'] {
@@ -131,7 +142,8 @@ A black and white filter inspired by shodo ink writing.
 ### Makimono
 ![Makimono](http://herablog.github.io/jpn-filter.css/images/makimono.jpg)
 
-A grayscale filter inspired by [makimono](https://www.google.co.jp/search?q=%E3%81%BE%E3%81%8D%E3%82%82%E3%81%AE&espv=2&biw=1308&bih=647&source=lnms&tbm=isch&sa=X&ei=8_rjVNGDD4GF8gW314DoDA&ved=0CAYQ_AUoAQ) with borders used to simulate the feeling of ancient Japanese scrolls.
+昔の冊子形態である巻物をイメージしたフィルターです。グレースケール調で古くから伝わるものである印象をあたえます。  
+A grayscale filter inspired by [makimono](https://www.google.co.jp/search?q=%E5%B7%BB%E7%89%A9&tbm=isch) with borders used to simulate the feeling of ancient Japanese scrolls.
 
 ```css
 [data-filter='makimono'] {
@@ -147,7 +159,8 @@ A grayscale filter inspired by [makimono](https://www.google.co.jp/search?q=%E3%
 ### Kawaii
 ![Kawaii](http://herablog.github.io/jpn-filter.css/images/kawaii.jpg)
 
-A cute filter inspired by the popular Japanese purikura, which can be used with frineds.
+日本の「かわいい」文化の代表であるプリクラをイメージしたフィルターです。友達や恋人との写真に使うとよいでしょう。  
+A cute filter inspired by the popular Japanese [purikura](https://www.google.co.jp/search?q=%E3%83%97%E3%83%AA%E3%82%AF%E3%83%A9&tbm=isch), which can be used with frineds.
 
 ```css
 [data-filter='kawaii'] {
@@ -173,6 +186,7 @@ A cute filter inspired by the popular Japanese purikura, which can be used with 
 ### Bubble
 ![Bubble](http://herablog.github.io/jpn-filter.css/images/bubble.jpg)
 
+バブル経済期の楽しい様子を表現したフィルターです。懐かしく、楽しい写真に仕上がります。  
 A fun filter inspired by the happy times of the bubble economy.
 
 ```css
@@ -197,6 +211,7 @@ A fun filter inspired by the happy times of the bubble economy.
 ### LED
 ![LED](http://herablog.github.io/jpn-filter.css/images/led.jpg)
 
+ノーベル物理賞を受賞した青色LEDを表現した派手なフィルターです。素晴らしい発明に対する敬意を表しています。  
 A flashy filter inspired by the Nobel Prize Physicist who is known for his work on blue LED, expressing my respect for the great invention.
 
 ```css
@@ -211,6 +226,8 @@ A flashy filter inspired by the Nobel Prize Physicist who is known for his work 
 ```
 
 ## Example
-See [demo app](https://herablog.github.io/jpn-filter.css).
+[デモアプリ](https://herablog.github.io/jpn-filter.css)をご覧ください。  
+See [the demo app](https://herablog.github.io/jpn-filter.css).
 
+デモアプリは**クロームブラウザ**上で、正常に動作します。  
 The app works on **Chrome** browser.
