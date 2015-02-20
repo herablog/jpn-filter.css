@@ -1,0 +1,28 @@
+{
+  "name": "jpn-filter.css",
+  "version": "0.0.0",
+  "description": "The Japanese-styled CSS filters.",
+  "main": "jpn-filter-0.0.0.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herablog/jpn-filter.css"
+  },
+  "keywords": [
+    "css3",
+    "filter"
+  ],
+  "author": "Kazunari Hara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herablog/jpn-filter.css/issues"
+  },
+  "homepage": "https://github.com/herablog/jpn-filter.css",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^0.11.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-stylus": "^2.0.0"
+  }
+}

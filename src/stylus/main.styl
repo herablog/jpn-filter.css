@@ -1,0 +1,170 @@
+@import './includes/_mixin'
+@import './includes/_keyframes'
+
+// variables
+black_54 = hsla(0, 0, 0, .54)
+black_60 = hsla(0, 0, 0, .60)
+black_87 = hsla(0, 0, 0, .87)
+
+indigo_50 = hsla(231, 44%, 94%, 1)
+indigo_100 = hsla(232, 45%, 84%, 1)
+indigo_200 = hsla(231, 44%, 74%, 1)
+indigo_300 = hsla(230, 44%, 64%, 1)
+indigo_400 = hsla(231, 44%, 56%, 1)
+
+blueGray_50 = hsla(204, 15%, 94%, 1)
+blueGray_200 = hsla(200, 15%, 73%, 1)
+blueGray_300 = hsla(200, 16%, 62%, 1)
+blueGray_500 = hsla(200, 18%, 46%, 1)
+
+// styles
+html
+  font-size 16px
+
+ul,li
+  list-style none
+
+a
+  color black_87
+  text-decoration none
+  &:hover
+    color blueGray_300
+
+[data-filter]
+  background-position center
+  background-repeat no-repeat
+  background-size cover
+
+// jpn-filter app
+.app
+  background indigo_50
+  color black_87
+  font-family 'Duru Sans', sans-serif
+  line-height 1.4
+
+// Header
+.Header
+  padding 4rem 0 4.2rem
+  text-align center
+
+.Header-logo
+  color indigo_400
+  font-family 'Berkshire Swash', cursive
+  font-size 5.5rem
+  margin 0
+  text-indent .5em
+
+// Selector
+.Selector-list
+  display flex
+  flex-wrap wrap
+  justify-content center
+  margin 0 auto
+  width 94%
+
+.Selector-item
+  vendor(animation, intro-selector 1s ease-out)
+  border 1px solid indigo_300
+  border-radius 4px
+  margin 0 4px 7px
+  transition all ease-out .1s
+  &:hover
+    transform scale(.95)
+
+.Selector-label
+  border-radius 0 0 4px 4px
+  color indigo_400
+  display block
+  font-size .8rem
+  padding .2em 0
+  text-align center
+  text-transform capitalize
+  transition all ease-out .2s
+
+.Selector-radio
+  vendor(appearance, none)
+  background-size cover
+  border-radius 4px 4px 0 0
+  cursor pointer
+  display block
+  height 80px
+  margin 0
+  outline none
+  width 80px
+  &:checked ~ .Selector-label
+    background indigo_300
+    color blueGray_50
+
+// Stage
+.Stage
+  vendor(animation, appeare 1.2s ease-out .4s backwards)
+  margin 3rem 0
+.Stage-list
+  display flex
+  justify-content center
+.Stage-item
+  height 30vw
+  margin 0 5px
+  transition -webkit-filter .2s ease-out, background .2s ease-out, box-shadow .2s ease-out
+  width 30vw
+  &::before,
+  &::after
+    transition -webkit-filter .2s ease-out, background .2s ease-out, box-shadow .2s ease-out
+
+// GitHub Link
+.Github
+  text-align center
+.Github-anchor
+  border 1.5px solid black_87
+  border-radius 4px
+  display inline-block
+  margin 0 auto
+  padding .5em 2em
+  transition all ease-out .12s
+  &:hover
+    border-color blueGray_300
+  &::before
+    content "\f09b"
+    font-family 'FontAwesome', sans-serif
+    font-size 2em
+    padding 0 .3em 0 0
+    vertical-align middle
+
+// Filters
+.Filters
+  margin 4rem 0 0
+  .heading
+    font-size 2rem
+    padding 0 .8rem .5vw
+  .heading-sub
+    color blueGray_50
+    font-size 1.5rem
+    margin 0 0 .2em
+    text-transform capitalize
+
+.Filters-list
+  background blueGray_300
+  display flex
+  flex-wrap wrap
+  justify-content space-around
+  padding 1vw 0 3vw
+  width 100%
+
+.Filters-item
+  padding 2vw 2.5vw
+
+.Filters-image
+  background-position center
+  background-repeat no-repeat
+  background-size cover
+  height 25vw
+  width 25vw
+
+// Footer
+.Footer
+  padding 10vw 0 0
+  text-align center
+.Footer-copyright
+  color blueGray_300
+  font-size .9rem
+  margin 5vw 0 1vw
