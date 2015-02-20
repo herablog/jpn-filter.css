@@ -74,7 +74,7 @@
           </ul>
         </main>
         <aside className="Github">
-          <a href="https://herablog.github.io/jpn-filter.css" className="Github-anchor">View on GitHub</a>
+          <a href="https://github.com/herablog/jpn-filter.css" className="Github-anchor">View on GitHub</a>
         </aside>
         <aside className="Filters">
           <h2 className="heading">Filters</h2>
