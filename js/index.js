@@ -74,7 +74,7 @@
           )
         ), 
         React.createElement("aside", {className: "Github"}, 
-          React.createElement("a", {href: "https://herablog.github.io/jpn-filter.css", className: "Github-anchor"}, "View on GitHub")
+          React.createElement("a", {href: "https://github.com/herablog/jpn-filter.css", className: "Github-anchor"}, "View on GitHub")
         ), 
         React.createElement("aside", {className: "Filters"}, 
           React.createElement("h2", {className: "heading"}, "Filters"), 
