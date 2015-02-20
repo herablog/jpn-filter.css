@@ -110,6 +110,13 @@ a
   &::before,
   &::after
     transition -webkit-filter .2s ease-out, background .2s ease-out, box-shadow .2s ease-out
+  &:hover
+    background-color none
+    border-image none
+    vendor(filter, none)
+    &::before,
+    &::after
+      visibility hidden
 
 // GitHub Link
 .Github

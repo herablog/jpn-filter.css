@@ -162,6 +162,15 @@ a:hover {
 .Stage-item::after {
   transition: -webkit-filter 0.2s ease-out, background 0.2s ease-out, box-shadow 0.2s ease-out;
 }
+.Stage-item:hover {
+  background-color: none;
+  border-image: none;
+  -webkit-filter: none;
+}
+.Stage-item:hover::before,
+.Stage-item:hover::after {
+  visibility: hidden;
+}
 .Github {
   text-align: center;
 }
