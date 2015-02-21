@@ -11,7 +11,7 @@
       { name: 'taisho', photo: 'sake.jpg' },
       { name: 'kurosawa', photo: 'jaxa.jpg' },
       { name: 'kabuki', photo: 'kabuki.jpg' },
-      { name: 'shodo', photo: 'arashiyama.jpg' },
+      { name: 'shodo', photo: 'ukiyoe.png' },
       { name: 'makimono', photo: 'michi.jpg' },
       { name: 'kawaii', photo: 'students.png' },
       { name: 'bubble', photo: 'bubble.jpg' },

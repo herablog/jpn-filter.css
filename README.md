@@ -128,7 +128,7 @@ A fun filter inspired by the traditional art of Kabuki, which uses colorful bord
 ```
 
 ### Shodo
-![Shodo](http://herablog.github.io/jpn-filter.css/images/shodo.jpg)
+![Shodo](http://herablog.github.io/jpn-filter.css/images/shodo.png)
 
 東洋の芸術である書道から影響を受けたフィルターです。このフィルターを適用すると、筆と墨で書かれたような写真になります。  
 A black and white filter inspired by [shodo](https://www.google.co.jp/search?q=shodo&tbm=isch) ink writing.
