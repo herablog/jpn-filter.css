@@ -111,6 +111,7 @@ a:hover {
 }
 .Selector-item {
   -webkit-animation: intro-selector 1s ease-out;
+  animation: intro-selector 1s ease-out;
   border: 1px solid #7b88cc;
   border-radius: 4px;
   margin: 0 4px 7px;
@@ -131,6 +132,7 @@ a:hover {
 }
 .Selector-radio {
   -webkit-appearance: none;
+  appearance: none;
   background-size: cover;
   border-radius: 4px 4px 0 0;
   cursor: pointer;
@@ -146,6 +148,7 @@ a:hover {
 }
 .Stage {
   -webkit-animation: appeare 1.2s ease-out 0.4s backwards;
+  animation: appeare 1.2s ease-out 0.4s backwards;
   margin: 3rem 0;
 }
 .Stage-list {
@@ -166,6 +169,7 @@ a:hover {
   background-color: none;
   border-image: none;
   -webkit-filter: none;
+  filter: none;
 }
 .Stage-item:hover::before,
 .Stage-item:hover::after {
