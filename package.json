@@ -1,8 +1,8 @@
 {
   "name": "jpn-filter.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Japanese-styled CSS filters.",
-  "main": "jpn-filter-0.0.1.css",
+  "main": "jpn-filter-0.0.2.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/herablog/jpn-filter.css"
